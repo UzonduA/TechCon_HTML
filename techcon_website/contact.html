@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="#about.html">About</a></li>
+                <li><a href="#schedule.html">Schedule</a></li>
+                <li><a href="#register.html">Register</a></li>
+                <li><a href="#contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <a href="mailto:email@example.com">Email</a>
+        <a href="https://www.techcon.tech" target="_blank">Website</a>
+        <div class="Map-container">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.803013510165!2d-87.62648998456358!3d41.8721479792217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cba056d9b7f%3A0x6fa4f1a1dbf865f1!2sHilton%20Chicago!5e0!3m2!1sen!2sus!4v1622558667446!5m2!1sen!2sus"
+             allowfullscreen=""
+             loading="lazy"
+             referrerpolicy="no-referrer-when-downgrade">
+                
+             </iframe>
+        </div>
+        <form action="/submit-form" method="post">
+                        <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="email@yahoomail.com">
+
+            <label for="message">Message</label>
+            <input type="text" id="message" name="Message" placeholder="Type your Message here">
+
+            <button>Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>copyright</p>
+    </footer>
+</body>
+</html>
